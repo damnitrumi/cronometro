@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+#cronometro {
+    color: #49FF00;
+    font-size: 10rem;
+    border: none;
+    pointer-events: none;
+    display: block;
+    max-width: 63%;
+    margin: 0 auto;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+button {
+    padding: 5px;
+    font-size: 3rem;
+    border-radius: 15px;
+    border: 1px solid #49FF00;
+}
